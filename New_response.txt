@@ -1,0 +1,15 @@
+response status: 200content: 00000000|N-nitrosoiminodiacetic acid|C048588|55|NM|Forced SCR Leaf Node Lookup:nida|TI|MM|4^4^0
+00000000|Data Science|D000077488|54|MH|RtM via: Data Science;Forced Leaf Node Lookup:data sciences|TI|MM|73^12^0
+00000000|Health Services Research|D006302|348|MH|RtM via: No charge for medical care due to enrollment in research/clinical trial|TI|MM;RC|110^8^1;123^14^1
+00000000|Awards and Prizes|D001363|3|MH|RtM via: Awards;Forced Non-Leaf Node Lookup:awards|TI|MM;RC|43^5^0
+00000000|Workforce|D000078329|3|MH|RtM via: Workforce - population group;Forced Non-Leaf Node Lookup:workforces|TI|MM;RC|86^9^0
+response status: 200content: 00000000|*Artificial Intelligence|D001185|4110|MH|RtM via: Artificial Intelligence;Forced Lookup:artificial intelligence|TI|MM;RC|94^23^0;139^2^0
+00000000|Machine Learning|D000069550|2115|MH|RtM via: Machine Learning;Forced Non-Leaf Node Lookup:machine learning|TI|MM;RC|122^16^0
+00000000|Algorithms|D000465|196|MH|||RC
+00000000|Information Science|D007254|24|MH|RtM via: Information Sciences;Forced Non-Leaf Node Lookup:information sciences|TI|MM|73^20^0
+00000000|Workforce|D000078329|1000|MH|Forced Non-Leaf Node Lookup:workforces||MM|31^9^0
+response status: 200content: 00000000|*Artificial Intelligence|D001185|4110|MH|RtM via: Artificial Intelligence;Forced Lookup:artificial intelligence|TI|MM;RC|98^23^0;143^2^0
+00000000|Machine Learning|D000069550|2115|MH|RtM via: Machine Learning;Forced Non-Leaf Node Lookup:machine learning|TI|MM;RC|126^16^0
+00000000|Algorithms|D000465|196|MH|||RC
+00000000|Information Science|D007254|24|MH|RtM via: Information Sciences;Forced Non-Leaf Node Lookup:information sciences|TI|MM|77^20^0
+00000000|Workforce|D000078329|1000|MH|Forced Non-Leaf Node Lookup:workforces||MM|35^9^0

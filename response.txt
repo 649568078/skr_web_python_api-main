@@ -1,0 +1,35 @@
+response status: 200
+content:
+00000000|Humans|D006801|1000|CT|Forced Humans CON/AUTO/REVIEW|TI|MM
+00000000|*Artificial Intelligence|D001185|6399|MH|RtM via: Artificial Intelligence;Forced Lookup:artificial intelligence|TI|MM;RC|1162^23^0;260^2^0;401^2^0;542^2^0;1208^2^0
+00000000|Data Science|D000077488|960|MH|RtM via: Data Science;Forced Leaf Node Lookup:data sciences|TI|MM|878^12^0;986^12^0;1269^12^0
+00000000|N-nitrosoiminodiacetic acid|C048588|652|NM|Forced SCR Leaf Node Lookup:nida|TI|MM|1240^4^0
+00000000|Computational Biology|D019295|3090|MH|RtM via: Bio-Informatics;RtM via: Computational Biology;Forced Non-Leaf Node Lookup:computational biology|TI|MM;RC|41^14^0;580^14^0;60^21^0;135^21^0;116^14^0
+00000000|Genomics|D023281|2772|MH|RtM via: Genomics;Forced Non-Leaf Node Lookup:genomics|TI|MM;RC|865^8^0;973^8^0
+00000000|Machine Learning|D000069550|2361|MH|RtM via: Machine Learning;Forced Non-Leaf Node Lookup:machine learning|TI|MM;RC|1190^16^0
+00000000|Software|D012984|1143|MH|RtM via: Computer software;Forced Non-Leaf Node Lookup:software|TI|MM|82^8^0
+00000000|Workforce|D000078329|78|MH|RtM via: Workforce - population group;Forced Non-Leaf Node Lookup:workforces|TI|MM|1282^9^0;1098^9^0
+00000000|Communicable Diseases|D003141|3|MH|RtM via: Communicable Diseases;Forced Non-Leaf Node Lookup:infectious diseases|TI|MM|623^19^0
+
+response status: 200
+content: 00000000|*Artificial Intelligence|D001185|5264|MH|RtM via: Artificial Intelligence;Forced Lookup:artificial intelligence|TI|MM;RC|21^23^0;346^23^0;518^2^0
+00000000|Data Science|D000077488|1538|MH|RtM via: Data Science;Forced Leaf Node Lookup:data sciences|TI|MM|198^12^0;590^12^0;738^12^0
+00000000|Software|D012984|3882|MH|RtM via: Computer software;RtM via: Software Tools;Forced Non-Leaf Node Lookup:software tools|TI|MM;RC|577^8^0;937^14^0;1057^14^0
+00000000|Computational Biology|D019295|2979|MH|RtM via: Bio-Informatics;Forced Non-Leaf Node Lookup:bioinformatics|TI|MM;RC|828^14^0;1156^14^0
+00000000|Genomics|D023281|762|MH|RtM via: Genomics;Forced Non-Leaf Node Lookup:genomics|TI|MM|185^8^0
+00000000|Nutritional Sciences|D052756|1000|MH|Forced Non-Leaf Node Lookup:nutrition sciences||MM|59^17^0
+
+response status: 200
+content: 00000000|Humans|D006801|1000|CT|Forced Humans CON/AUTO/REVIEW|TI|MM
+00000000|*Data Science|D000077488|1216|MH|RtM via: Data Science;Forced Leaf Node Lookup:data sciences|TI|MM|301^12^0;813^12^0
+00000000|Big Data|D000077558|1213|MH|RtM via: Big Data;Forced Leaf Node Lookup:big data|TI|MM|297^8^0;1002^8^0
+00000000|Computational Biology|D019295|7344|MH|RtM via: Bio-Informatics;Forced Non-Leaf Node Lookup:bioinformatics|TI|MM;RC|953^14^0;150^14^0;489^14^0;606^14^0;882^14^0
+00000000|Genomics|D023281|4167|MH|RtM via: Genomics;Forced Non-Leaf Node Lookup:genomics|TI|MM;RC|596^8^0
+00000000|Informatics|D048088|2202|MH|RtM via: Informatics (discipline);Forced Non-Leaf Node Lookup:informatics|TI|MM;RC|937^11^0;280^11^0;793^11^0;866^11^0;1078^11^0
+00000000|Diabetes Mellitus|D003920|1626|MH|RtM via: Diabetes;RtM via: Diabetes Mellitus;Forced Non-Leaf Node Lookup:diabetes|TI|MM|169^8^0
+00000000|Metabolic Diseases|D008659|1623|MH|RtM via: Metabolic Diseases;Forced Non-Leaf Node Lookup:metabolic disease|TI|MM|191^17^0
+00000000|Bioengineering|D057005|1356|MH|RtM via: Bioengineering;RtM via: Biomedical Computing;Forced Non-Leaf Node Lookup:bioengineerings|TI|MM|625^14^0;258^20^0
+00000000|Software|D012984|6|MH|RtM via: Software Tools;Forced Non-Leaf Node Lookup:software tools|TI|MM;RC|88^14^0;393^14^0
+00000000|Obesity|D009765|3|MH|RtM via: Obesity;Forced Non-Leaf Node Lookup:obesity|TI|MM|179^7^0
+
+

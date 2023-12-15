@@ -1,0 +1,5 @@
+generic_batch_file.py -e user@host -a 1234-5678-9ABC-DEF1 ~/queries/iiquery
+
+mti_interactive.py -e judayeshou@judayeshou@gmail.com -a 2b4b6064-21bd-40ca-b4ff-719c322cdf91
+
+2b4b6064-21bd-40ca-b4ff-719c322cdf91
