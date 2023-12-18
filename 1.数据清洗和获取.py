@@ -201,34 +201,37 @@ if __name__ == '__main__':
 
     # 从数据库调出程序
     for inputtext in inputtext_list:
-        time.sleep(5)
-        id = inputtext[0]
-        title = inputtext[1]
-        print([id,title])
-        II_SKR_SERVERURL = 'https://ii.nlm.nih.gov/cgi-bin/II/UTS_Required'
-        MTI_INTERACTIVE_URL = II_SKR_SERVERURL + "/API_MTI_interactive.pl"
-        email = "judayeshou@judayeshou@gmail.com"
-        apikey = "2b4b6064-21bd-40ca-b4ff-719c322cdf91"
-        inst = Submission(email, apikey)
-        serviceurl = ""
-        if serviceurl != "":
-            inst.set_serviceurl(serviceurl)
-        inst.init_mti_interactive(title, args='-opt1L_DCMS')
-        response = inst.submit()
-        print(f"开始更新{id}")
-        update_query = f"UPDATE nihguide3 SET mesh = '{response.text}' WHERE id = '{id}'"
-        update_query2 = f"UPDATE nihguide3 SET mark = '1' WHERE id = '{id}'"
         try:
-            cursor.execute(update_query)
-            cursor.execute(update_query2)
-            # 提交事务
-            connection.commit()
-            print("更新操作成功！")
-        except Exception as e:
-            # 发生错误时回滚
-            connection.rollback()
-            print(f"更新操作失败: {e}")
-
+            time.sleep(5)
+            id = inputtext[0]
+            title = inputtext[1]
+            print([id,title])
+            II_SKR_SERVERURL = 'https://ii.nlm.nih.gov/cgi-bin/II/UTS_Required'
+            MTI_INTERACTIVE_URL = II_SKR_SERVERURL + "/API_MTI_interactive.pl"
+            email = "judayeshou@judayeshou@gmail.com"
+            apikey = "2b4b6064-21bd-40ca-b4ff-719c322cdf91"
+            inst = Submission(email, apikey)
+            serviceurl = ""
+            if serviceurl != "":
+                inst.set_serviceurl(serviceurl)
+            inst.init_mti_interactive(title, args='-opt1L_DCMS')
+            response = inst.submit()
+            print(f"开始更新{id}")
+            update_query = f"UPDATE nihguide3 SET mesh = %s WHERE id = %s"
+            update_query2 = f"UPDATE nihguide3 SET mark = 1 WHERE id = %s"
+            try:
+                cursor.execute(update_query, (response.text, id))
+                print(update_query)
+                cursor.execute(update_query2,(id))
+                # 提交事务
+                connection.commit()
+                print("更新操作成功！")
+            except Exception as e:
+                # 发生错误时回滚
+                connection.rollback()
+                print(f"更新操作失败: {e}")
+        except:
+            pass
     # 关闭游标和连接
     cursor.close()
     connection.close()
